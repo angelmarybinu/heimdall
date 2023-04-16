@@ -242,13 +242,19 @@ body {
     
 }*/
 
+.rev{
+  background-color: rgb(96, 137, 203);
+  padding-bottom: 50px;
+  padding-top: 50px;
+} 
+
 .title {
     width: 180px;
     text-transform: capitalize;
     margin-top: 25px;
     margin-left: 110px;
     margin-bottom: 45px;
-    border-bottom: 5px solid rgb(90, 152, 238) ;
+    border-bottom: 5px solid rgb(255, 255, 255) ;
     padding-bottom: 10px;
     letter-spacing: 3px;
     text-align: center;
@@ -264,6 +270,12 @@ body {
     box-shadow: 0px 0px 5px  0px rgb(189, 189, 190);
     text-align: center;
     
+transition: 0.3s;
+}
+
+.review:hover{
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+    transform: translateY(-20px);
 }
 
 #person-img {
@@ -315,8 +327,6 @@ body {
     color: rgb(90, 152, 238);
     font-size: 18px;
     text-align: center;
-    margin-left: 180px;
-    
 }
 .prev-btn:hover {
     cursor: pointer;
@@ -331,7 +341,6 @@ body {
     color: rgb(90, 152, 238);
     font-size: 18px;
     text-align: center;
-    margin-left: 180px;
 }
 .next-btn:hover {
     cursor: pointer;
@@ -405,7 +414,7 @@ text-align: center;
     list-style: none;
   }
   .footer{
-    background-color: #24262b;
+    background-color: #fcfdfe;
       padding: 70px 0;
   }
   .footer-col{
@@ -414,7 +423,7 @@ text-align: center;
   }
   .footer-col h4{
     font-size: 18px;
-    color: #ffffff;
+    color: #0c0928;
     text-transform: capitalize;
     margin-bottom: 35px;
     margin-left: 38px;
@@ -437,32 +446,33 @@ text-align: center;
   .footer-col ul li a{
     font-size: 16px;
     text-transform: capitalize;
-    color: #ffffff;
+    color: #150827;
     text-decoration: none;
     font-weight: 300;
-    color: #bbbbbb;
+    color: #150827;
     display: block;
     transition: all 0.3s ease;
   }
   .footer-col ul li a:hover{
-    color: #ffffff;
+    color: rgb(96, 137, 203);
     padding-left: 8px;
   }
   .footer-col .social-links a{
     display: inline-block;
+    margin-left: 50px;
     height: 40px;
     width: 40px;
     background-color: rgba(255,255,255,0.2);
-    margin:0 10px 10px 0;
+    
     text-align: center;
     line-height: 40px;
     border-radius: 50%;
-    color: #ffffff;
+    color: #24262b;
     transition: all 0.5s ease;
   }
   .footer-col .social-links a:hover{
-    color: #24262b;
-    background-color: #ffffff;
+    color: #ffffff;
+    background-color: #24262b;
   }
   
   /*responsive*/
