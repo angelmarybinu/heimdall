@@ -327,6 +327,7 @@ transition: 0.3s;
     color: rgb(90, 152, 238);
     font-size: 18px;
     text-align: center;
+    margin-left: 175px;
 }
 .prev-btn:hover {
     cursor: pointer;
@@ -341,6 +342,7 @@ transition: 0.3s;
     color: rgb(90, 152, 238);
     font-size: 18px;
     text-align: center;
+    margin-left: 175px;
 }
 .next-btn:hover {
     cursor: pointer;
